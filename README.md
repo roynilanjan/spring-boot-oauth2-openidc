@@ -1,5 +1,14 @@
 # spring-boot-oauth2-openidc
 
+This repository will have an example on how to bootstrap an OpenID Connect compliant OAuth2 Authorization Server running on a local machine using the using the Cloud Foundry UAA project. 
+
+### Step 1: Clone the project:
+
+git clone https://github.com/cloudfoundry/uaa
+
+
+
+
 
 
 ### Start a local Pivotal UAA OAuth2 authorization server
