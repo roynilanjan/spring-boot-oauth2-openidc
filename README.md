@@ -19,6 +19,14 @@ uaac target http://localhost:8080/uaa --skip-ssl-validation
 ### Login as a canned client
 uaac token client get admin -s adminsecret
 
+### You can explore the token can using :
+
+uaac token decode
+
+### The raw jwt token can be obtained using the following command:
+
+uaac context
+
 ### Add a client credential with client_id of client1 and client_secret of client1
 uaac client add client1 \
    --name client1 \
