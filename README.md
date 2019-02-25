@@ -1,6 +1,6 @@
 # spring-boot-oauth2-openidc
 
-In this repository i am exloring the ways to enable SSO with the  OAuth2 provider - Pivotal UAA,  for Spring Boot 2 based applications
+In this repository i am exloring the ways to enable SSO with the  OAuth2 provider - Pivotal UAA,  for Spring Boot 2 based applications.
 Following are the instructions to bootstrap a OpenID Connect compliant OAuth2 Authorization Server running on a local machine using the using the Cloud Foundry UAA project. 
 
 ### Start a local Pivotal UAA OAuth2 authorization server
