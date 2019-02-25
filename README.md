@@ -2,18 +2,13 @@
 
 This repository will have an example on how to bootstrap an OpenID Connect compliant OAuth2 Authorization Server running on a local machine using the using the Cloud Foundry UAA project. 
 
-### Step 1: Clone the project:
+### Start a local Pivotal UAA OAuth2 authorization server
 
 git clone https://github.com/cloudfoundry/uaa
 
+RUn ./gradlew run . This will start the UAA server at your local at port 8080
 
-
-
-
-
-### Start a local Pivotal UAA OAuth2 authorization server
-
-
+### Connect with your local UAA server from the UAA CLI https://github.com/cloudfoundry/cf-uaac 
 
 ### Target local UAA
 uaac target http://localhost:8080/uaa --skip-ssl-validation
