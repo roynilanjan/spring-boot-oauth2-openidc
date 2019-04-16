@@ -1,6 +1,6 @@
 # spring-boot-oauth2-openidc
 
-This repository explains the steps involved to setup a local Pivotal UAA server,and register a Oauth2 client with the UAA CLI and login using that client from a Spring Boot application.
+This repository explains the steps involved to setup a local Pivotal UAA server,and register a Oauth2 clients with different grant types and users with different scopes with the help of the UAA CLI . I will also  login using that client from a Spring Boot application.
 Following are the instructions to bootstrap OpenID connect server  on a UNIX machine using the Cloud Foundry UAA project.
 
 
